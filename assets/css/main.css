@@ -3250,7 +3250,7 @@ input, select, textarea {
 
 		#nav a:hover {
 			color: #636363;
-
+			background-color: #dddddd;
 		}
 
 		#nav strong, #nav b {
