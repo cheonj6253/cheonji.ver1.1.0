@@ -43,6 +43,10 @@ $("#id").keyup(function(){ // ID 입력 칸에 ID를 입력할 때,
 		}
 		return unescape(cookieValue);
 	}
+	window.onload=function(){
+		if(window.history && window.history.pushState){
+			window.history.pushState(",null,null);
+						 } };
     function filter(){
 
         var value, name, item, i;
