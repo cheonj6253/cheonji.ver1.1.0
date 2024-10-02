@@ -7,14 +7,14 @@
 
     function filter(){
 
-        var value, name, item, i;
+        var value, name1, item, i;
 
         value = document.getElementById("value").value.toUpperCase();
         item = document.getElementsByClassName("item");
 
         for(i=0;i<item.length;i++){
-          name = item[i].getElementsByClassName("name");
-          if(name[0].innerHTML.toUpperCase().indexOf(value) > -1){
+          name1 = item[i].getElementsByClassName("name1");
+          if(name1[0].innerHTML.toUpperCase().indexOf(value) > -1){
             item[i].style.display = "flex";
           }else{
             item[i].style.display = "none";
